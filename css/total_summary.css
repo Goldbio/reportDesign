@@ -1,0 +1,48 @@
+
+#total_summary {
+	position:relative;
+	height:300px;
+
+}
+
+.total_summary_table  {
+	position:absolute;
+	border-collapse:collapse;	
+}
+
+.total_summary_table tr:first-child td {
+	font:20px georgia;
+	height:70px;
+}
+
+
+.total_summary_table tr td:first-child {
+	width:5px;
+	border-bottom:1px solid white;
+
+}
+
+.total_summary_table tr td:nth-child(2) {
+	border-bottom:1px solid gray;
+	padding:2px 5px;
+	width:200px;
+}
+
+
+.total_summary_table:nth-of-type(2) {
+	left:250px;
+}
+
+
+/*  color for risk type  */
+
+.increased_risk {
+	background:red;
+}
+.above_risk {
+	background:orange;
+}
+.normal {
+	background:skyblue;
+}
+

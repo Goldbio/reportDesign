@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report version="1.0" report_order_id="163295" manifest_id="5" activation_id="122711" template_id="7" lang="en" document_id="0">
+  <!--
+    Copyright 2013 Pathway Genomics
+    All Rights Reserved
+  -->
+  <title>Health Conditions DNA Insight℠</title>
+  <date_published>2013-04-03</date_published>
+  <patient id="16931">
+    <external_id></external_id>
+    <name>
+      <first_name>Joonsik</first_name>
+      <last_name>Yoon</last_name>
+    </name>
+    <date_of_birth>1981-01-26</date_of_birth>
+    <gender>M</gender>
+    <ethnicity>Asian</ethnicity>
+  </patient>
+  <physicians>
+    <physician id="1277" type="ordering">
+      <name>
+        <title></title>
+        <first_name>Joseph</first_name>
+        <last_name>Voland M.D.</last_name>
+        <degree></degree>
+      </name>
+      <address id="8569">
+        <street1>4045 Sorrento Valley Blvd.</street1>
+        <street2></street2>
+        <city>San Diego</city>
+        <state_province>CA</state_province>
+        <postal_code>92121</postal_code>
+        <country>US</country>
+      </address>
+    </physician>
+  </physicians>
+  <laboratory id="0">
+    <director>
+      <name>
+        <title>Dr.</title>
+        <first_name>Linda</first_name>
+        <last_name>Wasserman</last_name>
+        <degree>M.D., Ph.D.</degree>
+      </name>
+    </director>
+    <clia_number>05D1092505</clia_number>
+    <address>
+      <street1>4045 Sorrento Valley Blvd.</street1>
+      <street2></street2>
+      <city>San Diego</city>
+      <state_province>CA</state_province>
+      <postal_code>92121</postal_code>
+      <country>US</country>
+    </address>
+  </laboratory>
+  <test_details>
+    <methodology>Genotyping by array-based evaluation of multiple molecular probes</methodology>
+  </test_details>
+  <sample id="15096">
+    <accession_number>D1415371</accession_number>
+    <activation_code>PGLKW-ZHSYM</activation_code>
+    <specimen_code>Saliva</specimen_code>
+    <date_collected>2013-02-19</date_collected>
+    <date_accessioned>2013-02-19</date_accessioned>
+  </sample>
+  <results>
+    <phenotypes>
+      <phenotype id="48">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Ulcerative colitis</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for ulcerative colitis. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a screening or prevention program may be appropriate.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for ulcerative colitis. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a screening program may be appropriate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for ulcerative colitis. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. General preventive measures, such as smoking cessation, could be encouraged.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="269">
+            <name>TNFa</name>
+            <markers>
+              <marker id="1677">
+                <name>rs1800629</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="47">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Systemic lupus erythematosus</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for systemic lupus erythematosus. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a screening or prevention program may be appropriate.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for systemic lupus erythematosus. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a screening or prevention program may be appropriate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for systemic lupus erythematosus. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="520">
+            <name>BANK1</name>
+            <markers>
+              <marker id="1771">
+                <name>rs17266594</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="531">
+            <name>BLK</name>
+            <markers>
+              <marker id="1768">
+                <name>rs13277113</name>
+                <result type="genotype">A/G</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="320">
+            <name>CTLA4</name>
+            <markers>
+              <marker id="1218">
+                <name>rs231775</name>
+                <result type="genotype">A/G</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="528">
+            <name>FCGR2A</name>
+            <markers>
+              <marker id="1784">
+                <name>rs1801274</name>
+                <result type="genotype">T/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="527">
+            <name>MECP2</name>
+            <markers>
+              <marker id="1782">
+                <name>rs1734787</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="322">
+            <name>STAT4</name>
+            <markers>
+              <marker id="1109">
+                <name>rs7574865</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="46">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Rheumatoid arthritis</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for rheumatoid arthritis. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. ]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="true">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for rheumatoid arthritis. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. ]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="false">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for rheumatoid arthritis. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="525">
+            <name>CD244</name>
+            <markers>
+              <marker id="1793">
+                <name>rs3766379</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="320">
+            <name>CTLA4</name>
+            <markers>
+              <marker id="1107">
+                <name>rs3087243</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="316">
+            <name>FCRL3</name>
+            <markers>
+              <marker id="1103">
+                <name>rs7528684</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="312">
+            <name>PADI4</name>
+            <markers>
+              <marker id="1099">
+                <name>rs2240340</name>
+                <result type="genotype">A/G</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="322">
+            <name>STAT4</name>
+            <markers>
+              <marker id="1109">
+                <name>rs7574865</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="44">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Prostate cancer</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for prostate cancer. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, regular, age-appropriate screening program may be appropriate.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="true">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for prostate cancer. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, regular, age-appropriate screening may be appropriate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="false">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for prostate cancer. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. General preventive measures, such as routine physical exams, could be encouraged.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="596">
+            <name>Intergenic_8q24, region 1</name>
+            <markers>
+              <marker id="818">
+                <name>rs1447295</name>
+                <result type="genotype">A/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="612">
+            <name>Intergenic_8q24, region 2</name>
+            <markers>
+              <marker id="814">
+                <name>rs6983561</name>
+                <result type="genotype">A/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="42">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Parkinson's disease</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for Parkinson’s disease. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. ]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for Parkinson’s disease. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for Parkinson’s disease. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Parkinson’s disease is believed to be caused by a complex mix of genetic, environmental and lifestyle factors. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="117">
+            <name>LRRK2</name>
+            <markers>
+              <marker id="731">
+                <name>rs34778348</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="41">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Osteoarthritis</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for osteoarthritis. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Patient education regarding the importance of maintaining a healthy weight and regular exercise may be appropriate to reduce disease risk.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for osteoarthritis. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Patient education regarding the importance of regular exercise and maintenance of a healthy weight may be appropriate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for osteoarthritis. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="545">
+            <name>DVWA</name>
+            <markers>
+              <marker id="1941">
+                <name>rs7639618</name>
+                <result type="genotype">A/G</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="212">
+            <name>GDF5</name>
+            <markers>
+              <marker id="871">
+                <name>rs143383</name>
+                <result type="genotype">T/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="40">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Obesity</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for obesity. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Patient education regarding the importance of selecting a healthy diet, regular exercise and reducing stress may be appropriate to reduce disease risk.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for obesity. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Patient education regarding the importance of a healthy diet, regular exercise and reducing stress may be appropriate to reduce disease risk.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for obesity. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. General preventive measures, such as a proper diet, exercise and reducing stress, could be encouraged.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="337">
+            <name>FTO</name>
+            <markers>
+              <marker id="1131">
+                <name>rs9939609</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="39">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Myocardial infarction</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for myocardial infarction. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Patient education regarding the importance of maintaining a healthy weight, regular physical activity and selecting a low-sodium diet with lots of fruits and vegetables may be appropriate to reduce disease risk.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for myocardial infarction. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Patient education regarding the importance of maintaining a healthy weight, regular exercise, and selecting a low-sodium diet with lots of fruits and vegetables to reduce disease risk may be appropriate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for myocardial infarction. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Patient education regarding the importance of maintaining a healthy weight, regular physical activity and a low-sodium diet with lots of fruits and vegetables could be considered.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="430">
+            <name>LGALS2</name>
+            <markers>
+              <marker id="1288">
+                <name>rs7291467</name>
+                <result type="genotype">T/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="448">
+            <name>LTA</name>
+            <markers>
+              <marker id="1691">
+                <name>rs1041981</name>
+                <result type="genotype">A/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="617">
+            <name>MIAT</name>
+            <markers>
+              <marker id="1285">
+                <name>rs2331291</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="426">
+            <name>PSMA6</name>
+            <markers>
+              <marker id="1283">
+                <name>rs1048990</name>
+                <result type="genotype">G/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="36">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Lung cancer</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for lung cancer. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Patient education regarding the importance of lifestyle choices, such as avoiding exposure to smoke, selecting a diet rich in fruits and vegetables and regular exercise, may be appropriate.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="true">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for lung cancer. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Patient education regarding the importance of lifestyle choices, such as avoiding exposure to smoke, selecting a diet rich in fruits and vegetables and regular exercise, may be appropriate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="false">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for lung cancer. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. General preventive measures, such as avoiding exposure to smoke, maintaining a diet rich in fruits and vegetables, and regular exercise, could be encouraged.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="138">
+            <name>TERT</name>
+            <markers>
+              <marker id="809">
+                <name>rs2736100</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="34">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Hypertension</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for hypertension. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, regular screening as well as patient education regarding maintenance of a healthy weight, regular exercise and maintenance of a healthy lifestyle may be appropriate.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for hypertension. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. A low-fat, low-salt diet high in fruits and vegetables could be advised to reduce disease risk.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for hypertension. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="473">
+            <name>BCAT1</name>
+            <markers>
+              <marker id="1537">
+                <name>rs7961152</name>
+                <result type="genotype">A/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="403">
+            <name>PPARGC1A</name>
+            <markers>
+              <marker id="1238">
+                <name>rs8192678</name>
+                <result type="genotype">A/G</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="32">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Diabetes, type 2</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for type 2 diabetes. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, regular screening as well as patient education regarding the importance of regular physical activity and maintaining a healthy weight may be appropriate.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for type 2 diabetes. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. General preventive measures and patient education regarding the importance of regular physical activity and maintaining a healthy weight could be considered.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for type 2 diabetes. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. General preventive measures and patient education regarding the importance of regular physical activity and maintaining a healthy weight could be considered.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="373">
+            <name>CDKAL1</name>
+            <markers>
+              <marker id="1235">
+                <name>rs7754840</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="404">
+            <name>CDKN2B</name>
+            <markers>
+              <marker id="1240">
+                <name>rs10811661</name>
+                <result type="genotype">T/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="399">
+            <name>HHEX</name>
+            <markers>
+              <marker id="1229">
+                <name>rs1111875</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="587">
+            <name>IGF2BP2</name>
+            <markers>
+              <marker id="4852">
+                <name>rs1470579</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="76">
+            <name>KCNJ11</name>
+            <markers>
+              <marker id="848">
+                <name>rs5219</name>
+                <result type="genotype">T/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="90">
+            <name>KCNQ1</name>
+            <markers>
+              <marker id="1233">
+                <name>rs2237892</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="402">
+            <name>MTNR1B</name>
+            <markers>
+              <marker id="1232">
+                <name>rs10830963</name>
+                <result type="genotype">C/G</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="110">
+            <name>PPARG</name>
+            <markers>
+              <marker id="711">
+                <name>rs1801282</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="406">
+            <name>SLC30A8</name>
+            <markers>
+              <marker id="1242">
+                <name>rs13266634</name>
+                <result type="genotype">T/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="163">
+            <name>TCF7L2</name>
+            <markers>
+              <marker id="800">
+                <name>rs7903146</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="31">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Diabetes, type 1</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for type 1 diabetes. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a screening program may be appropriate ]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="true">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for type 1 diabetes. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a screening program may be appropriate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="false">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for type 1 diabetes. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="387">
+            <name>CLEC16A</name>
+            <markers>
+              <marker id="1215">
+                <name>rs12708716</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="390">
+            <name>IL2RA</name>
+            <markers>
+              <marker id="4825">
+                <name>rs3118470</name>
+                <result type="genotype">T/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="314">
+            <name>PTPN22</name>
+            <markers>
+              <marker id="1111">
+                <name>rs2488457</name>
+                <result type="genotype">G/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="30">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Coronary artery disease</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for coronary artery disease. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a screening or prevention program may be appropriate.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for coronary artery disease. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a screening or prevention program, as well as patient education regarding the importance of regular exercise and maintenance of a healthy lifestyle may be appropriate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for coronary artery disease. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. General preventive measures, such as weight loss, regular exercise and healthy eating, could be encouraged.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="592">
+            <name>Intergenic_9p21</name>
+            <markers>
+              <marker id="1126">
+                <name>rs1333049</name>
+                <result type="genotype">G/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="29">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Colorectal cancer</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for colorectal cancer. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a regular and age-appropriate screening program may be appropriate.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="true">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for colorectal cancer. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a regular, age-appropriate screening program may be appropriate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="false">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for colorectal cancer. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. General preventive measures, such as smoking cessation and regular exercise,  and age-appropriate colonoscopic screening could be encouraged.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="611">
+            <name>Intergenic_8q24, region3</name>
+            <markers>
+              <marker id="801">
+                <name>rs6983267</name>
+                <result type="genotype">T/G</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="27">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Atrial fibrillation</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for atrial fibrillation. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a screening or prevention program as well as patient education regarding symptoms of the disorder may be appropriate.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for atrial fibrillation. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Depending on personal and family health history, a screening or prevention program as well as patient education to encourage regular exercise, limiting alcohol and tobacco consumption may be appropriate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for atrial fibrillation. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. General preventive measures, such as exercise, smoking cessation and limiting alcohol consumption, could be encouraged.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="336">
+            <name>PITX2</name>
+            <markers>
+              <marker id="1129">
+                <name>rs2200733</name>
+                <result type="genotype">T/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="24">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Alzheimer's disease, late onset</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for late onset Alzheimer’s disease. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Though Alzheimer’s disease cannot be prevented, a healthy diet and regular exercise can delay onset, and engaging in mentally-stimulating activities has been shown to reduce risk.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="true">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for late onset Alzheimer’s disease. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Though Alzheimer’s disease cannot be prevented, a healthy diet and regular exercise can delay onset, and engaging in mentally-stimulating activities has been shown to reduce risk.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="false">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for late onset Alzheimer’s disease. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result>APOE 3/4</genetic_result>
+        <genes>
+          <gene id="38">
+            <name>APOE</name>
+            <markers>
+              <marker id="843">
+                <name>rs7412</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+              <marker id="844">
+                <name>rs429358</name>
+                <result type="genotype">C/T</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="23">
+        <status>FINAL</status>
+        <type>Health Conditions</type>
+        <name>Age-related macular degeneration</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Increased Risk</name>
+            <description><![CDATA[This patient has increased genetic risk for age-related macular degeneration. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Regular opthalomological exams may be appropriate.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for age-related macular degeneration. This does not mean the patient will develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. Regular opthalomological exams may be appropriate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has typical genetic risk for age-related macular degeneration. This does not mean the patient will or will not develop the disease. This test outcome was determined using genetic laboratory results in conjunction with the patient’s self-reported ethnicity. General preventive measures, such as smoking cessation and regular eye exams, could be encouraged.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="41">
+            <name>ARMS2</name>
+            <markers>
+              <marker id="4879">
+                <name>rs10490924</name>
+                <result type="genotype">T/G</result>
+                <scientific_strength min="1" max="4"/>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+    </phenotypes>
+    <recommendations></recommendations>
+  </results>
+  <supplemental_text>
+    <disclaimer><![CDATA[<p>This report is not intended to be used solely by the 
+patient without the consultation of a licensed health care professional. 
+This test was developed and its performance characteristics determined by 
+the testing laboratory. It has not been cleared or approved by the U.S. Food 
+and Drug Administration (FDA).</p>
+<p>If you have any questions about this report or wish to speak with one of 
+Pathway Genomics&apos; genetic counselors, please call (877) 505.7374.</p>]]></disclaimer>
+    <risks_limitations><![CDATA[<p><b>Risk of Laboratory Technical Problems or Laboratory Error</b></p>
+
+<p>The certified testing laboratory has standard and effective procedures in place to protect against technical and operational problems. However, such problems may still occur. The testing laboratory receives samples collected by patients and physicians. Problems in shipping to the laboratory or sample handling can occur, including but not limited to damage to the specimen or related paperwork, mislabeling, and loss or delay of receipt of the specimen. Laboratory problems can occur that might lead to inability to obtain results. Examples include, but are not limited to, sample mislabeling, DNA contamination, un-interpretable results, and human and/or testing system errors. In such cases, the testing laboratory may need to request a new sample. However, upon re-testing, results may still not be obtainable.</p>
+
+<p>As with all medical laboratory testing, there is a small chance that the laboratory could report inaccurate information. For example, the laboratory could report that a given genotype is present when in fact it is not. Any kind of laboratory error may lead to incorrect decisions regarding medical treatment and/or diet and fitness recommendations. If a laboratory error has occurred or is suspected, a health care professional may wish to pursue further evaluation and/or other testing. Further testing may be pursued to verify any results for any reason.</p>
+
+<p><b>Limitations</b></p>
+
+<p>The purpose of this test is to provide information about how a tested individual’s genes may affect carrier status for some inherited diseases, responses to some drugs, risk for specific common health conditions, and/or selected diet, nutrition and/or exercise responses, as well as to learn more about the tested individual’s ancient ancestry, depending upon the specific genetic testing that is ordered by the health care professional. Tested individuals should not make any changes to any medical care (including but not limited to changes to dosage or frequency of medications, diet and exercise regimens, or pregnancy planning) based on genetic testing results without consulting a health care professional.</p>
+
+<p>The science behind the significance or interpretation of certain testing results continues to evolve. Although great strides have been made to advance the potential usefulness of genetic testing, there is still much to be discovered. Genetic testing is based upon information, developments and testing techniques that are known today. Future research may reveal changes in the interpretation of previously obtained genetic testing results. For example, any genetic test is limited by the variants being tested. The interpretation of the significance of some variants may change as more research is done about them. Some variants that are associated with disease, drug response, or diet, nutrition and exercise response may not be tested; possibly these variants have not yet been identified in genetic studies.</p>
+
+<p>Many of the conditions and drug responses that are tested are dependent on genetic factors as well as nongenetic factors such as age, personal health and family health history, diet, and ethnicity. As such, an individual may not exhibit the specific drug response, disease, or diet, nutrition and exercise response consistent with the genetic test results.</p>
+
+<p>Another limitation for some conditions, particularly in the areas of diet and exercise, is that genetic associations have been studied and observed in Caucasian populations only. In this case, the interpretations and recommendations are made in the context of Caucasian studies, but the results may or may not be relevant to tested individuals who are of non-Caucasian or mixed ethnicities.</p>
+
+<p>Based on test results and other medical knowledge of the tested individual, health care professionals might consider additional independent testing, or consult another health care professional or genetic counselor.</p>]]></risks_limitations>
+    <result_status_definitions>
+      <result_status sort_order="10">
+        <name>Amended</name>
+        <description>Test results and/or patient information that have been revised in a way that does not impact the clinical significance of the result(s) and/or patient diagnosis, treatment or management.</description>
+      </result_status>
+      <result_status sort_order="20">
+        <name>Corrected</name>
+        <description>Test results and/or patient information that have been revised in a way that may impact the clinical significance of the result(s) and/or patient diagnosis, treatment or management.</description>
+      </result_status>
+      <result_status sort_order="30">
+        <name>Final</name>
+        <description>Test results that are available at the time of report issue or have been revised from pending status to final status.</description>
+      </result_status>
+      <result_status sort_order="40">
+        <name>Pending</name>
+        <description>Test results that are not available at the time of report issue. All pending results will be specified in the report.</description>
+      </result_status>
+    </result_status_definitions>
+  </supplemental_text>
+  <revisions/>
+</report>
+
+

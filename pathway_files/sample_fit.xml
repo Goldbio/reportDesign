@@ -1,0 +1,2290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report version="1.0" report_order_id="163291" manifest_id="3" activation_id="122711" template_id="7" lang="en" document_id="0">
+  <!--
+    Copyright 2013 Pathway Genomics
+    All Rights Reserved
+  -->
+  <title>Pathway Fit®</title>
+  <date_published>2013-04-03</date_published>
+  <patient id="16931">
+    <external_id></external_id>
+    <name>
+      <first_name>Joonsik</first_name>
+      <last_name>Yoon</last_name>
+    </name>
+    <date_of_birth>1981-01-26</date_of_birth>
+    <gender>M</gender>
+    <ethnicity>Asian</ethnicity>
+  </patient>
+  <physicians>
+    <physician id="1277" type="ordering">
+      <name>
+        <title></title>
+        <first_name>Joseph</first_name>
+        <last_name>Voland M.D.</last_name>
+        <degree></degree>
+      </name>
+      <address id="8569">
+        <street1>4045 Sorrento Valley Blvd.</street1>
+        <street2></street2>
+        <city>San Diego</city>
+        <state_province>CA</state_province>
+        <postal_code>92121</postal_code>
+        <country>US</country>
+      </address>
+    </physician>
+  </physicians>
+  <laboratory id="0">
+    <director>
+      <name>
+        <title>Dr.</title>
+        <first_name>Linda</first_name>
+        <last_name>Wasserman</last_name>
+        <degree>M.D., Ph.D.</degree>
+      </name>
+    </director>
+    <clia_number>05D1092505</clia_number>
+    <address>
+      <street1>4045 Sorrento Valley Blvd.</street1>
+      <street2></street2>
+      <city>San Diego</city>
+      <state_province>CA</state_province>
+      <postal_code>92121</postal_code>
+      <country>US</country>
+    </address>
+  </laboratory>
+  <test_details>
+    <methodology>Genotyping by array-based evaluation of multiple molecular probes</methodology>
+  </test_details>
+  <sample id="15096">
+    <accession_number>D1415371</accession_number>
+    <activation_code>PGLKW-ZHSYM</activation_code>
+    <specimen_code>Saliva</specimen_code>
+    <date_collected>2013-02-19</date_collected>
+    <date_accessioned>2013-02-19</date_accessioned>
+  </sample>
+  <results>
+    <phenotypes>
+      <phenotype id="204">
+        <status>FINAL</status>
+        <type>Nutrition</type>
+        <name>Genetic risk due to decreased vitamin B2</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>Optimize Intake</name>
+            <description><![CDATA[This patient has a marker in the MTHFR gene that is associated with increased levels of homocysteine if he or she has low vitamin B2 (riboflavin) levels. High plasma levels of homocysteine are a risk factor for heart disease. Vitamin B2 supplementation was found to reduce homocysteine levels in individuals with this patient’s genotype.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Stay Balanced</name>
+            <description><![CDATA[This patient's genotype at a marker in the MTHFR gene indicates that vitamin B2 levels are likely to have a relatively small impact on homocysteine levels. High plasma levels of homocysteine are a risk factor for heart disease.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="589">
+            <name>MTHFR</name>
+            <markers>
+              <marker id="4861">
+                <name>rs1801133</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="203">
+        <status>FINAL</status>
+        <type>Diet Recommendation</type>
+        <name>Genetic risk for decreased omega-6 and omega-3</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="false">
+            <name>Decreased</name>
+            <description><![CDATA[This patient has a variant in the FADS1 gene that is associated with decreased plasma levels of the omega-6 fat arachidonic acid and the omega-3 fat eicosapentaenoic acid. The FADS1 gene encodes an enzyme involved in processing omega-6 and omega-3 fats. Considering the current skewed ratio of omega-6:omega-3 fats in the Western diet, the patient could be advised to monitor intake of omega-6 fats from processed food and increase his or her intake of omega-3 fats. ]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="true">
+            <name>Typical</name>
+            <description><![CDATA[This patient has a variant in the FADS1 gene that is associated with typical plasma levels of the omega-6 fat arachidonic acid and the omega-3 fat eicosapentaenoic acid. The FADS1 gene encodes an enzyme involved in processing omega-6 and omega-3 fats.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="686">
+            <name>FADS1</name>
+            <markers>
+              <marker id="5420">
+                <name>rs174547</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="202">
+        <status>FINAL</status>
+        <type>Nutrition</type>
+        <name>Genetic risk for decreased vitamin C</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>Optimize Intake</name>
+            <description><![CDATA[This patient is more likely to have lower plasma levels of vitamin C. The patient has a variant in the SLC23A1 gene that is associated with decreased levels of circulating vitamin C. This patient could be advised to consume more foods containing vitamin C, including lemons, oranges, red peppers, watermelons, strawberries and citrus juices.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Stay Balanced</name>
+            <description><![CDATA[This patient is less likely to have lower plasma levels of vitamin C. The patient does not have a variant in the SLC23A1 gene that is associated with decreased levels of circulating vitamin C.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="736">
+            <name>SLC23A1</name>
+            <markers>
+              <marker id="5489">
+                <name>rs33972313</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="201">
+        <status>FINAL</status>
+        <type>Exercise</type>
+        <name>Aerobic capacity (VO2max)</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="false">
+            <name>Decreased</name>
+            <description><![CDATA[This patient has a variant in the PPARGC1A gene that is associated with a decreased baseline VO2max and is more likely to have a decreased aerobic capacity. The PPARGC1A gene encodes a key regulator of energy metabolism. The baseline VO2max level can vary depending on age, gender, past medical history, current health and level of physical activity. Endurance training could be considered for individuals with a lower baseline VO2max. This test result is derived from a study with only men, and there is insufficient scientific evidence to determine if women are similarly affected.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="true">
+            <name>Typical</name>
+            <description><![CDATA[This patient is more likely to have a typical aerobic capacity. This patient does not have a variant in the PPARGC1A gene that is associated with decreased baseline VO2max. The PPARGC1A gene encodes a key regulator of energy metabolism.  The baseline VO2max level can vary depending on age, gender, past medical history, current health and level of physical activity. This test result is derived from a study with only men, and there is insufficient scientific evidence to determine if women are similarly affected.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="403">
+            <name>PPARGC1A</name>
+            <markers>
+              <marker id="1238">
+                <name>rs8192678</name>
+                <result type="genotype">G/A</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="200">
+        <status>FINAL</status>
+        <type>Metabolic Health Factors</type>
+        <name>Genetic risk for decreased HDL cholesterol</name>
+        <outcomes>
+          <outcome id="5" sort_order="10" patient_result="false">
+            <name>High Risk</name>
+            <description><![CDATA[This patient has higher genetic risk for decreased HDL cholesterol levels (below 40 mg/dl). However, this result does not mean that the patient has decreased HDL cholesterol levels. Monitoring the patient’s blood levels of cholesterol could be considered.]]></description>
+          </outcome>
+          <outcome id="4" sort_order="20" patient_result="true">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for decreased HDL cholesterol levels (below 40 mg/dl). However, this result does not mean that the patient has decreased HDL cholesterol levels. Monitoring the patient’s blood levels of cholesterol could be considered.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="30" patient_result="false">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has average genetic risk for decreased HDL cholesterol levels. However, this result does not mean that the patient has optimal HDL cholesterol levels. Routine screening for blood cholesterol levels should be performed at appropriate ages as recommended by the U.S. Preventive Services Task Force and other groups. ]]></description>
+          </outcome>
+          <outcome id="2" sort_order="40" patient_result="false">
+            <name>Below Average Risk</name>
+            <description><![CDATA[This patient has below average genetic risk for decreased HDL cholesterol levels. However, this result does not mean that the patient has optimal HDL cholesterol levels. Routine screening for blood cholesterol levels should be performed at appropriate ages as recommended by the U.S. Preventive Services Task Force and other groups.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="50" patient_result="false">
+            <name>Low Risk</name>
+            <description><![CDATA[This patient has lower genetic risk for decreased HDL cholesterol levels. However, this result does not mean that the patient has optimal HDL cholesterol levels. Routine screening for blood cholesterol levels should be performed at appropriate ages as recommended by the U.S. Preventive Services Task Force and other groups.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="39">
+            <name>ABCA1</name>
+            <markers>
+              <marker id="5417">
+                <name>rs1883025</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="687">
+            <name>ANGPTL4</name>
+            <markers>
+              <marker id="5421">
+                <name>rs2967605</name>
+                <result type="genotype">G/A</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="688">
+            <name>CETP</name>
+            <markers>
+              <marker id="5488">
+                <name>rs247616</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="686">
+            <name>FADS1</name>
+            <markers>
+              <marker id="5420">
+                <name>rs174547</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="684">
+            <name>GALNT2</name>
+            <markers>
+              <marker id="5418">
+                <name>rs4846914</name>
+                <result type="genotype">A/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="689">
+            <name>HNF4A</name>
+            <markers>
+              <marker id="5423">
+                <name>rs1800961</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="672">
+            <name>KCTD10</name>
+            <markers>
+              <marker id="5428">
+                <name>rs2338104</name>
+                <result type="genotype">C/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="691">
+            <name>LCAT</name>
+            <markers>
+              <marker id="5427">
+                <name>rs2271293</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="280">
+            <name>LIPC</name>
+            <markers>
+              <marker id="5425">
+                <name>rs10468017</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="685">
+            <name>LIPG</name>
+            <markers>
+              <marker id="5419">
+                <name>rs4939883</name>
+                <result type="genotype">C/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="271">
+            <name>LPL</name>
+            <markers>
+              <marker id="5424">
+                <name>rs12678919</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="683">
+            <name>PLTP</name>
+            <markers>
+              <marker id="5416">
+                <name>rs7679</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="690">
+            <name>TTC39B</name>
+            <markers>
+              <marker id="5426">
+                <name>rs471364</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="682">
+            <name>ZNF259</name>
+            <markers>
+              <marker id="5415">
+                <name>rs964184</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="199">
+        <status>FINAL</status>
+        <type>Metabolic Health Factors</type>
+        <name>Genetic risk for elevated blood sugar</name>
+        <outcomes>
+          <outcome id="5" sort_order="10" patient_result="false">
+            <name>High Risk</name>
+            <description><![CDATA[This patient has higher genetic risk for elevated blood sugar levels (above 140 mg/dl). However, this result does not mean that the patient has elevated blood sugar levels. Persistent high blood sugar levels may indicate a condition called insulin resistance and can lead to type 2 diabetes. Monitoring the patient’s blood levels of glucose could be considered.]]></description>
+          </outcome>
+          <outcome id="4" sort_order="20" patient_result="true">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for elevated blood sugar levels (above 140 mg/dl). However, this result does not mean that the patient has elevated blood sugar levels. Persistent high blood sugar levels may indicate a condition called insulin resistance and can lead to type 2 diabetes. Monitoring the patient’s blood levels of glucose could be considered.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="30" patient_result="false">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has average genetic risk for elevated blood sugar levels. However, this result does not mean that the patient has optimal blood sugar levels. Routine, targeted screening for blood glucose levels should be performed at appropriate ages as recommended by the American Diabetes Association. ]]></description>
+          </outcome>
+          <outcome id="2" sort_order="40" patient_result="false">
+            <name>Below Average Risk</name>
+            <description><![CDATA[This patient has below average genetic risk for elevated blood sugar levels. However, this result does not mean that the patient has optimal blood sugar levels. Routine, targeted screening for blood glucose levels should be performed at appropriate ages as recommended by the American Diabetes Association.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="50" patient_result="false">
+            <name>Low Risk</name>
+            <description><![CDATA[This patient has lower genetic risk for elevated blood sugar levels. However, this result does not mean that the patient has optimal blood sugar levels. Routine, targeted screening for blood glucose levels should be performed at appropriate ages as recommended by the American Diabetes Association. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="696">
+            <name>ADCY5</name>
+            <markers>
+              <marker id="5433">
+                <name>rs11708067</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="695">
+            <name>ADRA2A</name>
+            <markers>
+              <marker id="5432">
+                <name>rs10885122</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="698">
+            <name>CRY2</name>
+            <markers>
+              <marker id="5435">
+                <name>rs11605924</name>
+                <result type="genotype">A/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="686">
+            <name>FADS1</name>
+            <markers>
+              <marker id="5437">
+                <name>rs174550</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="693">
+            <name>G6PC2</name>
+            <markers>
+              <marker id="5430">
+                <name>rs560887</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="74">
+            <name>GCK</name>
+            <markers>
+              <marker id="5439">
+                <name>rs4607517</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="694">
+            <name>GCKR</name>
+            <markers>
+              <marker id="5431">
+                <name>rs780094</name>
+                <result type="genotype">G/A</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="700">
+            <name>GLIS3</name>
+            <markers>
+              <marker id="5440">
+                <name>rs7034200</name>
+                <result type="genotype">A/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="692">
+            <name>MADD</name>
+            <markers>
+              <marker id="5429">
+                <name>rs7944584</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="402">
+            <name>MTNR1B</name>
+            <markers>
+              <marker id="1232">
+                <name>rs10830963</name>
+                <result type="genotype">C/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="699">
+            <name>PROX1</name>
+            <markers>
+              <marker id="5436">
+                <name>rs340874</name>
+                <result type="genotype">C/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="667">
+            <name>SLC2A2</name>
+            <markers>
+              <marker id="5441">
+                <name>rs11920090</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="163">
+            <name>TCF7L2</name>
+            <markers>
+              <marker id="800">
+                <name>rs7903146</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="198">
+        <status>FINAL</status>
+        <type>Body and Weight</type>
+        <name>Obesity</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="false">
+            <name>Above Average</name>
+            <description><![CDATA[This patient has increased risk for being overweight (BMI ≥ 25). This patient's genetic profile in the MC4R and FTO genes is associated with increased risk for being overweight. The MC4R gene is involved in regulating energy balance, and the FTO gene may be important for controlling feeding behavior and energy balance. Both genes are associated with BMI. ]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="true">
+            <name>Average</name>
+            <description><![CDATA[This patient has typical risk for being overweight (BMI ≥ 25). This patient's genetic profile in the MC4R and FTO genes is associated with typical risk for being overweight. The MC4R gene is involved in regulating energy balance, and the FTO gene may be important for controlling feeding behavior and energy balance. Both genes are associated with BMI. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="337">
+            <name>FTO</name>
+            <markers>
+              <marker id="1131">
+                <name>rs9939609</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="19">
+            <name>MC4R</name>
+            <markers>
+              <marker id="1132">
+                <name>rs17782313</name>
+                <result type="genotype">C/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="143">
+        <status>FINAL</status>
+        <type>Body and Weight</type>
+        <name>Weight loss-regain</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="true">
+            <name>More likely to regain weight</name>
+            <description><![CDATA[The patient has a variant in the ADIPOQ gene that is associated with weight regain within 32 to 60 weeks following a restricted calorie diet. Hence, the patient is more likely to regain weight after diet-induced weight loss. If this patient is planning a diet for weight loss, a plan for weight maintenance should be considered.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="false">
+            <name>Weight Loss Maintained</name>
+            <description><![CDATA[The patient does not have a variant in the ADIPOQ gene that is associated with weight regain within 32 to 60 weeks following a restricted calorie diet. The patient is less likely to regain weight after diet-induced weight loss.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="407">
+            <name>ADIPOQ</name>
+            <markers>
+              <marker id="5390">
+                <name>rs17300539</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="141">
+        <status>FINAL</status>
+        <type>Nutrition</type>
+        <name>Genetic risk for increased vitamin E</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="true">
+            <name>Optimize Intake</name>
+            <description><![CDATA[This patient does not have a variant near the APOA5 gene that is associated with increased plasma levels of alpha-tocopherol so is less likely to have higher plasma levels of alpha-tocopherol, which is one compound that makes up vitamin E. This patient could be advised to consume more foods containing vitamin E, including vegetable oils, leafy green vegetables, eggs and nuts.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="false">
+            <name>Stay Balanced</name>
+            <description><![CDATA[The patient has a variant near the APOA5 gene that is associated with increased plasma levels of alpha-tocopherol. Hence, this patient is more likely to have higher plasma levels of alpha-tocopherol, which is one compound that makes up vitamin E. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="225">
+            <name>intergenic</name>
+            <markers>
+              <marker id="5400">
+                <name>rs12272004</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="140">
+        <status>FINAL</status>
+        <type>Nutrition</type>
+        <name>Genetic risk for decreased vitamin D</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="false">
+            <name>Optimize Intake</name>
+            <description><![CDATA[This patient is more likely to have lower plasma levels of vitamin D. The patient has a variant in the GC gene that encodes a vitamin D-binding protein and is associated with decreased circulating levels of vitamin D, possibly due to a reduced ability to transport vitamin D in the body. This patient could be advised to consume more foods containing vitamin D, including some fatty fish, fish liver oils, milk or cereals fortified with vitamin D.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="true">
+            <name>Stay Balanced</name>
+            <description><![CDATA[This patient is less likely to have lower plasma levels of vitamin D. The patient does not have a variant in the GC gene that encodes a vitamin D-binding protein and is associated with decreased circulating levels of vitamin D, possibly due to a reduced ability to transport vitamin D in the body.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="671">
+            <name>GC</name>
+            <markers>
+              <marker id="5399">
+                <name>rs2282679</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="139">
+        <status>FINAL</status>
+        <type>Nutrition</type>
+        <name>Genetic risk for decreased vitamin B6</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="true">
+            <name>Optimize Intake</name>
+            <description><![CDATA[The patient has a variant in the NBPF3 gene that is associated with reduced levels of vitamin B6, possibly due to faster than normal clearance of this vitamin from the bloodstream. Therefore, this patient is more likely to have lower plasma levels of vitamin B6. This patient could be advised to consume more foods containing vitamin B6, including beans, whole grains, meat, eggs and fish.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="false">
+            <name>Stay Balanced</name>
+            <description><![CDATA[This patient does not have a variant in the NBPF3 gene that is associated with reduced levels of vitamin B6 and is less likely to have lower plasma levels of vitamin B6.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="670">
+            <name>NBPF3</name>
+            <markers>
+              <marker id="5398">
+                <name>rs4654748</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="138">
+        <status>FINAL</status>
+        <type>Nutrition</type>
+        <name>Genetic risk for decreased vitamin B12</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="true">
+            <name>Optimize Intake</name>
+            <description><![CDATA[This patient is more likely to have lower plasma levels of vitamin B12. The patient has a variant in the FUT2 gene that is associated with decreased vitamin B12 levels. This patient could be advised to consume more foods containing vitamin B12, including meat, fish, poultry, eggs and milk products.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="false">
+            <name>Stay Balanced</name>
+            <description><![CDATA[This patient is less likely to have lower plasma levels of vitamin B12. The patient does not have a variant in the FUT2 gene that is associated with decreased vitamin B12 levels.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="669">
+            <name>FUT2</name>
+            <markers>
+              <marker id="5397">
+                <name>rs602662</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="137">
+        <status>FINAL</status>
+        <type>Eating Behaviors</type>
+        <name>Sweet tooth</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>Increased</name>
+            <description><![CDATA[This patient is more likely to eat increased amounts of sugars in his or her diet. The patient has a genetic variant in the SLC2A2 gene that is associated with increased consumption of sugars. The patient could be advised to choose fruit as a healthy and sweet alternative. ]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Typical</name>
+            <description><![CDATA[This patient is more likely to eat typical amounts of sugars in his or her diet. The patient has a genetic variant in the SLC2A2 gene that is associated with typical consumption of sugars.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="667">
+            <name>SLC2A2</name>
+            <markers>
+              <marker id="5394">
+                <name>rs5400</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="136">
+        <status>FINAL</status>
+        <type>Food Reactions</type>
+        <name>Sweet taste</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="false">
+            <name>Decreased</name>
+            <description><![CDATA[This patient is more likely to have decreased sensitivity to the sweet taste of sugar. The TAS1R3 gene encodes a sweet taste receptor. This patient has a genetic variant in the TAS1R3 gene that is associated with decreased sensitivity to sweet taste and may prefer foods with more sugar.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="true">
+            <name>Typical</name>
+            <description><![CDATA[This patient is more likely to have typical sensitivity to the sweet taste of sugar. The TAS1R3 gene encodes a sweet taste receptor. This patient has a genetic variant in the TAS1R3 gene that is associated with typical sensitivity to sweet taste.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="666">
+            <name>TAS1R3</name>
+            <markers>
+              <marker id="5393">
+                <name>rs35744813</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="135">
+        <status>FINAL</status>
+        <type>Exercise</type>
+        <name>Strength training</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="true">
+            <name>Less Beneficial</name>
+            <description><![CDATA[This patient has a variant that is associated with an increased fat volume after 12 weeks of resistance training; therefore, the patient is more likely to display higher fat volume in response to strength training. This test result only applies to men, and there is insufficient scientific evidence to determine if women are similarly affected.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="false">
+            <name>Beneficial</name>
+            <description><![CDATA[This patient does not have a variant that is associated with an increased fat volume after 12 weeks of resistance training; therefore, the patient is less likely to display higher fat volume in response to strength training. This test result only applies to men, and there is insufficient scientific evidence to determine if women are similarly affected.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="586">
+            <name>INSIG2</name>
+            <markers>
+              <marker id="4851">
+                <name>rs7566605</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="134">
+        <status>FINAL</status>
+        <type>Exercise</type>
+        <name>Muscle power</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="true">
+            <name>Enhanced Muscle Power</name>
+            <description><![CDATA[This patient is more likely to display enhanced performance in sprinting and other power sports. This patient has the functional version of the ACTN3 gene.  The ACTN3 gene encodes a protein in fast-twitch muscle fibers that is frequently found in top-level sprinters and elite power-oriented athletes.  However, this gene is only one of many factors determining a person’s athletic potential.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="false">
+            <name>Less Muscle Power</name>
+            <description><![CDATA[This patient is less likely to display enhanced performance in sprinting and other power sports. This patient does not have the functional version of ACTN3 gene. The ACTN3 gene encodes a protein in fast-twitch muscle fibers that is frequently found in top-level sprinters and elite power-oriented athletes. However, this gene is only one of many factors determining a person’s athletic potential.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="665">
+            <name>ACTN3</name>
+            <markers>
+              <marker id="5392">
+                <name>rs1815739</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="133">
+        <status>FINAL</status>
+        <type>Eating Behaviors</type>
+        <name>Snacking</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="true">
+            <name>Increased</name>
+            <description><![CDATA[This patient has a variant in the leptin receptor gene that is associated with increased snacking behavior. Leptin is an essential hormone for the regulation of food intake. This test result is derived from a study with only women, and there is insufficient scientific evidence to determine if men are similarly affected.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="false">
+            <name>Typical</name>
+            <description><![CDATA[This patient does not have the variant in the leptin receptor gene associated with increased snacking behavior and is less likely to display extreme snacking behavior. Leptin is an essential hormone for the regulation of food intake. This test result is derived from a study with only women, and there is insufficient scientific evidence to determine if men are similarly affected.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="664">
+            <name>LEPR</name>
+            <markers>
+              <marker id="5391">
+                <name>rs2025804</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="132">
+        <status>FINAL</status>
+        <type>Eating Behaviors</type>
+        <name>Satiety - feeling full</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="false">
+            <name>Difficulty Feeling Full</name>
+            <description><![CDATA[This patient is less likely to feel satisfied after a meal. The patient has a variant in the FTO gene that is associated with eating more without feeling satisfied. Although this test result is derived from a study focused on children, there is preliminary data supporting the same association in adults. If the patient has difficulty feeling full, he or she could consume greater amounts of fiber and balance snacks and meals throughout the day. ]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="true">
+            <name>Typical</name>
+            <description><![CDATA[This patient is more likely to feel satisfied after a meal. The patient does not have a variant in the FTO gene that is associated with eating more without feeling satisfied. Although this test result is derived from a study focused on children, there is preliminary data supporting the same association in adults.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="337">
+            <name>FTO</name>
+            <markers>
+              <marker id="1131">
+                <name>rs9939609</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="131">
+        <status>FINAL</status>
+        <type>Diet Recommendation</type>
+        <name>Response to polyunsaturated fats</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="true">
+            <name>Increased Benefit</name>
+            <description><![CDATA[This patient is more likely to have a lower body weight when eating a diet containing more polyunsaturated fats than saturated fats. The patient has a variant in the PPARG gene, which can affect the association between body weight and the ratio of consumed polyunsaturated to saturated fats. This test result was derived from a study with only women, and there is insufficient scientific evidence to determine if men are similarly affected.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="false">
+            <name>Neutral</name>
+            <description><![CDATA[This patient’s genotype does not indicate an association between body weight and the ratio of polyunsaturated to saturated fats consumed. However, several benefits may still be gained by substituting some saturated fats with polyunsaturated fats. This test result is derived from a study with only women, and there is insufficient scientific evidence to determine if men are similarly affected.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="110">
+            <name>PPARG</name>
+            <markers>
+              <marker id="711">
+                <name>rs1801282</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="130">
+        <status>FINAL</status>
+        <type>Diet Recommendation</type>
+        <name>Response to monounsaturated fats</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>Increased Benefit</name>
+            <description><![CDATA[This patient's genotypes in the ADIPOQ and PPARG genes are associated with lower body weight when greater that 13% of calories come from healthy monosaturated fats. The PPARG study included only women, whereas the ADIPOQ included both men and women. There is insufficient scientific evidence to determine if men are similarly affected by the PPARG variant.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Neutral</name>
+            <description><![CDATA[This patient’s genotypes in the ADIPOQ and PPARG do not indicate an association betweeen monounsaturated fat intake and body weight. However, several health benefits may still be gained by avoiding trans fats and substituting some saturated fats with monounsaturated fats. The PPARG study included only women, whereas the ADIPOQ included both men and women. There is insufficient scientific evidence to determine if men are similarly affected by the PPARG variant.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="407">
+            <name>ADIPOQ</name>
+            <markers>
+              <marker id="5390">
+                <name>rs17300539</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="110">
+            <name>PPARG</name>
+            <markers>
+              <marker id="711">
+                <name>rs1801282</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="128">
+        <status>FINAL</status>
+        <type>Body and Weight</type>
+        <name>Metabolism</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>Fast</name>
+            <description><![CDATA[The patient has a variant in the leptin receptor gene that is associated with a high resting metabolic rate. This variant is only one of many other genetic and nongenetic factors that contribute to metabolism. ]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Normal</name>
+            <description><![CDATA[This patient is more likely to have a typical resting metabolic rate. The patient does not have a variant in the leptin receptor gene that is associated with a high resting metabolic rate. This variant is only one of many other genetic and nongenetic factors that contribute to metabolism.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="664">
+            <name>LEPR</name>
+            <markers>
+              <marker id="5389">
+                <name>rs8179183</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="127">
+        <status>FINAL</status>
+        <type>Food Reactions</type>
+        <name>Lactose intolerance</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="true">
+            <name>More Likely</name>
+            <description><![CDATA[This patient is more likely to be lactose intolerant. The patient has a variant that is close to the lactase gene and is associated with decreased lactase levels. If lactose intolerant, the patient should ensure that his or her calcium intake from non-dairy or lactose-free sources is sufficient. This test result applies only to Caucasians, and other variants may play an important role in other ethnicities.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="false">
+            <name>Less Likely</name>
+            <description><![CDATA[This patient is less likely to be lactose intolerant. The patient does not have a variant that is close to the lactase gene and is associated with decreased lactase levels. This test result applies only to Caucasians, and other variants may play an important role in other ethnicities.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="663">
+            <name>MCM6</name>
+            <markers>
+              <marker id="5388">
+                <name>rs4988235</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="126">
+        <status>FINAL</status>
+        <type>Eating Behaviors</type>
+        <name>Hunger</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>Increased</name>
+            <description><![CDATA[This patient has a variant in the NMB gene that is associated with increased susceptibility to hunger. This test result is based on a preliminary study. ]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Typical</name>
+            <description><![CDATA[This patient is more likely to display typical susceptibility to hunger. The patient does not have a variant in the NMB gene that is associated with increased feelings of hunger. This test result is based on a preliminary study.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="662">
+            <name>NMB</name>
+            <markers>
+              <marker id="5387">
+                <name>rs1051168</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">1</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="125">
+        <status>FINAL</status>
+        <type>Eating Behaviors</type>
+        <name>Food desire</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>Increased</name>
+            <description><![CDATA[This patient's genotype at a marker in the DRD2/ANKK1 gene is associated with increased likelihood to display elevated food desire, also known as food reinforcement. This metric quantifies how much effort an individual is willing to put forth to gain access to food. Among people who were considered obese, those with this patient’s genotype were more likely to consume their favorite foods in greater quantities and exert greater effort to obtain them. ]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Typical</name>
+            <description><![CDATA[This patient's genotype at a marker in the DRD2/ANKK1 gene is not associated with elevated food desire, also known as food reinforcement. This metric quantifies how much effort an individual is willing to put forth to gain access to food. Among people who were considered obese, those with this patient’s genotype displayed approximately the same amount of effort to obtain their favorite foods as non-obese individuals.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="661">
+            <name>ANKK1/DRD2</name>
+            <markers>
+              <marker id="5386">
+                <name>rs1800497</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="124">
+        <status>FINAL</status>
+        <type>Nutrition</type>
+        <name>Genetic risk for decreased folate</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="false">
+            <name>Optimize Intake</name>
+            <description><![CDATA[This patient has increased risk for lower plasma levels of folate and higher plasma levels of homocysteine, a substance linked to cardiovascular disease at high levels. Folate can lower the plasma level of homocysteine, and diets rich in folate are associated with reduced risk of cardiovascular disease. Folate is particularly important early in pregnancy for preventing some birth defects.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="true">
+            <name>Stay Balanced</name>
+            <description><![CDATA[This patient’s genotype is not associated with lower plasma levels of folate. Folate can lower the plasma level of homocysteine, and diets rich in folate are associated with reduced risk of cardiovascular disease. Folate is particularly important early in pregnancy for preventing some birth defects.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="589">
+            <name>MTHFR</name>
+            <markers>
+              <marker id="4861">
+                <name>rs1801133</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="123">
+        <status>FINAL</status>
+        <type>Exercise</type>
+        <name>BMI response to exercise</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>Exercise Strongly Recommended</name>
+            <description><![CDATA[This patient has a variant in the FTO gene that indicates the patient is more likely to be overweight (BMI ≥ 25) if he or she has low physical activity levels. Research shows that people with this variant can reduce their propensity for increased BMI by being physically active.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Exercise Recommended</name>
+            <description><![CDATA[This patient does not have a variant in the FTO gene that is associated with an increased risk for being overweight (BMI ≥ 25) if the patient has low physical activity levels. However, exercise is still recommended to manage nongenetic risk factors for obesity.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="337">
+            <name>FTO</name>
+            <markers>
+              <marker id="5385">
+                <name>rs1121980</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="122">
+        <status>FINAL</status>
+        <type>Exercise</type>
+        <name>Loss of body fat response to exercise</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>Enhanced Benefit</name>
+            <description><![CDATA[This patient has a variant in the LPL gene that is associated with an enhanced reduction in body fat mass and percent body fat in response to 20 weeks of endurance training. This test result only applies to women, and there is insufficient scientific evidence to determine if men are similarly affected.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Normal Benefit</name>
+            <description><![CDATA[The patient has a variant in the LPL gene that is associated with a typical likelihood of reducing body fat mass and percent of body fat in response to 20 weeks of endurance training. This test result only applies to women, and there is insufficient scientific evidence to determine if the same association would be found in men.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="271">
+            <name>LPL</name>
+            <markers>
+              <marker id="5383">
+                <name>rs328</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="121">
+        <status>FINAL</status>
+        <type>Exercise</type>
+        <name>Insulin sensitivity response to exercise</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="true">
+            <name>Enhanced Benefit</name>
+            <description><![CDATA[This patient's genotype at a marker in the LIPC gene is associated with an increase in insulin sensitivity in response to exercise. ]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="false">
+            <name>Less Benefit</name>
+            <description><![CDATA[This patient's genotype at a marker in the LIPC gene does not indicate an association between an increase in insulin sensitivity and exercise. People with this test result are not likely to gain in insulin sensitivity from exercise training, but exercise remains important for many other aspects of health.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="280">
+            <name>LIPC</name>
+            <markers>
+              <marker id="5382">
+                <name>rs1800588</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="120">
+        <status>FINAL</status>
+        <type>Exercise</type>
+        <name>Blood pressure response to exercise</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>Exercise Strongly Recommended</name>
+            <description><![CDATA[This patient has a variant in the EDN1 gene that indicates the patient is more likely to have elevated blood pressure if he or she has low cardiorespiratory fitness. Research shows that people with this variant can reduce their propensity for hypertension by improving their cardiorespiratory fitness.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Exercise Recommended</name>
+            <description><![CDATA[This patient’s genotype at a variant in the EDN1 gene does not indicate an association between risk for elevated blood pressure and cardiorespiratory fitness. However, exercise is still recommended to manage nongenetic risk factors for high blood pressure.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="660">
+            <name>EDN1</name>
+            <markers>
+              <marker id="5384">
+                <name>rs5370</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="119">
+        <status>FINAL</status>
+        <type>Exercise</type>
+        <name>HDL cholesterol response to exercise</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>Enhanced Benefit</name>
+            <description><![CDATA[This patient has a variant in the PPARD gene that is associated with an "Enhanced Benefit" in HDL cholesterol levels in response to a 20-week endurance training program.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Normal Benefit</name>
+            <description><![CDATA[This patient has a variant in the PPARD gene that is associated with a normal benefit in HDL cholesterol levels in response to a 20-week endurance training program. People with “Normal Benefit” may also increase HDL cholesterol levels by exercising, but may not experience an enhanced effect.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="111">
+            <name>PPARD</name>
+            <markers>
+              <marker id="712">
+                <name>rs2016520</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="118">
+        <status>FINAL</status>
+        <type>Exercise</type>
+        <name>Endurance training</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="true">
+            <name>Enhanced Benefit</name>
+            <description><![CDATA[This patient has a genetic profile that is associated with enhanced benefits in response to a 20-week endurance training program.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="false">
+            <name>Normal Benefit</name>
+            <description><![CDATA[This patient has a genetic profile that is associated with normal health benefits in response to a 20-week endurance training program.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="280">
+            <name>LIPC</name>
+            <markers>
+              <marker id="5382">
+                <name>rs1800588</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="271">
+            <name>LPL</name>
+            <markers>
+              <marker id="5383">
+                <name>rs328</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="111">
+            <name>PPARD</name>
+            <markers>
+              <marker id="712">
+                <name>rs2016520</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="117">
+        <status>FINAL</status>
+        <type>Metabolic Health Factors</type>
+        <name>Genetic risk for elevated triglycerides</name>
+        <outcomes>
+          <outcome id="5" sort_order="10" patient_result="false">
+            <name>High Risk</name>
+            <description><![CDATA[This patient has higher genetic risk for borderline-high triglyceride levels (above 150 mg/dl). However, this result does not mean that the patient has borderline-high triglyceride levels. Monitoring the patient’s blood levels of triglycerides could be considered. High triglyceride levels are associated with lack of exercise, excessive alcohol consumption, cigarette smoking, excessive refined carbohydrate consumption and being overweight.]]></description>
+          </outcome>
+          <outcome id="4" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for elevated triglyceride levels. However, this result does not mean that the patient has elevated triglyceride levels. Monitoring the patient’s blood levels of triglycerides could be considered. High triglyceride levels are associated with lack of exercise, excessive alcohol consumption, cigarette smoking, excessive refined carbohydrate consumption and being overweight.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="30" patient_result="false">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has average genetic risk for elevated triglyceride levels. However, this result does not mean that the patient has optimal triglyceride levels. ]]></description>
+          </outcome>
+          <outcome id="2" sort_order="40" patient_result="false">
+            <name>Below Average Risk</name>
+            <description><![CDATA[This patient has below average genetic risk for elevated triglyceride levels. However, this result does not mean that the patient has optimal triglyceride levels. ]]></description>
+          </outcome>
+          <outcome id="1" sort_order="50" patient_result="true">
+            <name>Low Risk</name>
+            <description><![CDATA[This patient has lower genetic risk for elevated triglyceride levels. However, this result does not mean that the patient has optimal triglyceride levels. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="706">
+            <name>ANGPTL3</name>
+            <markers>
+              <marker id="5452">
+                <name>rs10889353</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="703">
+            <name>APOB</name>
+            <markers>
+              <marker id="5451">
+                <name>rs7557067</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="686">
+            <name>FADS1</name>
+            <markers>
+              <marker id="5420">
+                <name>rs174547</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="694">
+            <name>GCKR</name>
+            <markers>
+              <marker id="5455">
+                <name>rs1260326</name>
+                <result type="genotype">C/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="271">
+            <name>LPL</name>
+            <markers>
+              <marker id="5424">
+                <name>rs12678919</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="709">
+            <name>MLXIPL</name>
+            <markers>
+              <marker id="5457">
+                <name>rs714052</name>
+                <result type="genotype">T/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="704">
+            <name>NCAN</name>
+            <markers>
+              <marker id="5456">
+                <name>rs17216525</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="683">
+            <name>PLTP</name>
+            <markers>
+              <marker id="5416">
+                <name>rs7679</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="707">
+            <name>TRIB1</name>
+            <markers>
+              <marker id="5453">
+                <name>rs2954029</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="708">
+            <name>XKR6</name>
+            <markers>
+              <marker id="5454">
+                <name>rs7819412</name>
+                <result type="genotype">A/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="682">
+            <name>ZNF259</name>
+            <markers>
+              <marker id="5415">
+                <name>rs964184</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="116">
+        <status>FINAL</status>
+        <type>Metabolic Health Factors</type>
+        <name>Genetic risk for elevated LDL cholesterol</name>
+        <outcomes>
+          <outcome id="5" sort_order="10" patient_result="false">
+            <name>High Risk</name>
+            <description><![CDATA[This patient has higher genetic risk for borderline-high LDL cholesterol levels (above 130 mg/dl). However, this result does not mean that the patient has borderline-high LDL cholesterol levels. Monitoring the patient’s blood levels of LDL cholesterol could be considered. ]]></description>
+          </outcome>
+          <outcome id="4" sort_order="20" patient_result="false">
+            <name>Above Average Risk</name>
+            <description><![CDATA[This patient has above average genetic risk for borderline-high LDL cholesterol levels (above 130 mg/dl). However, this result does not mean that the patient has borderline-high LDL cholesterol levels. Monitoring the patient’s blood levels of LDL cholesterol could be considered.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="30" patient_result="true">
+            <name>Average Risk</name>
+            <description><![CDATA[This patient has average genetic risk for elevated LDL cholesterol levels. However, this result does not mean that the patient has optimal LDL cholesterol levels. Routine screening for blood cholesterol levels should be performed at appropriate ages as recommended by the U.S. Preventive Services Task Force and other groups.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="40" patient_result="false">
+            <name>Below Average Risk</name>
+            <description><![CDATA[This patient has below average genetic risk for elevated LDL cholesterol levels. However, this result does not mean that the patient has optimal LDL cholesterol levels. Routine screening for blood cholesterol levels should be performed at appropriate ages as recommended by the U.S. Preventive Services Task Force and other groups.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="50" patient_result="false">
+            <name>Low Risk</name>
+            <description><![CDATA[This patient has lower genetic risk for elevated LDL cholesterol levels. However, this result does not mean that the patient has optimal LDL cholesterol levels. Routine screening for blood cholesterol levels should be performed at appropriate ages as recommended by the U.S. Preventive Services Task Force and other groups.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="702">
+            <name>ABCG8</name>
+            <markers>
+              <marker id="5445">
+                <name>rs6544713</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="703">
+            <name>APOB</name>
+            <markers>
+              <marker id="5446">
+                <name>rs515135</name>
+                <result type="genotype">G/A</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="192">
+            <name>CELSR2</name>
+            <markers>
+              <marker id="5443">
+                <name>rs12740374</name>
+                <result type="genotype">G/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="705">
+            <name>HMGCR</name>
+            <markers>
+              <marker id="5448">
+                <name>rs3846663</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="585">
+            <name>HNF1A</name>
+            <markers>
+              <marker id="5449">
+                <name>rs2650000</name>
+                <result type="genotype">A/A</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="225">
+            <name>intergenic</name>
+            <markers>
+              <marker id="5442">
+                <name>rs1501908</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="264">
+            <name>LDLR</name>
+            <markers>
+              <marker id="5450">
+                <name>rs6511720</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="701">
+            <name>MAFB</name>
+            <markers>
+              <marker id="5444">
+                <name>rs6102059</name>
+                <result type="genotype">C/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="704">
+            <name>NCAN</name>
+            <markers>
+              <marker id="5447">
+                <name>rs10401969</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="433">
+            <name>PCSK9</name>
+            <markers>
+              <marker id="1291">
+                <name>rs11206510</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="113">
+        <status>FINAL</status>
+        <type>Eating Behaviors</type>
+        <name>Eating disinhibition</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="true">
+            <name>More Likely</name>
+            <description><![CDATA[The patient has a variant in the TAS2R38 gene that is associated with the tendency to eat more than normal in response to a stimulus; therefore, the patient is more likely to display eating disinhibition. This test result only applies to women, and there is insufficient scientific evidence to determine if men are similarly affected.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="false">
+            <name>Less Likely</name>
+            <description><![CDATA[This patient does not have a variant in the TAS2R38 gene that is associated with the tendency to eat more than normal in response to a stimulus; therefore, the patient is less likely to display eating disinhibition. This test result only applies to women, and there is insufficient scientific evidence to determine if men are similarly affected.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="659">
+            <name>TAS2R38</name>
+            <markers>
+              <marker id="5381">
+                <name>rs1726866</name>
+                <result type="genotype">C/T</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="112">
+        <status>FINAL</status>
+        <type>Diet Recommendation</type>
+        <name>Matching diet type</name>
+        <outcomes>
+          <outcome id="4" sort_order="10" patient_result="true">
+            <name>Balanced diet</name>
+            <description><![CDATA[This patient has an increased likelihood of weight loss or health benefits on a diet that is balanced in healthy fats, low glycemic index carbohydrates, protein and overall low calories. This diet has been selected by evaluating many genetic variants associated with LDL, HDL, triglyceride, and blood sugar levels, as well as how people respond to different macronutrients.]]></description>
+          </outcome>
+          <outcome id="3" sort_order="20" patient_result="false">
+            <name>Mediterranean Diet</name>
+            <description><![CDATA[This patient has an increased likelihood of weight loss or health benefits on a Mediterranean diet, which is rich in healthy monounsaturated fats.&nbsp;This diet has been selected by evaluating many genetic variants associated with LDL, HDL, triglyceride, and blood sugar levels, as well as how people respond to different macronutrients.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="30" patient_result="false">
+            <name>Low Carb Diet</name>
+            <description><![CDATA[This patient has an increased likelihood of weight loss or health benefits on a diet that is lower in carbohydrates. This diet has been selected by evaluating many genetic variants associated with LDL, HDL, triglyceride, and blood sugar levels, as well as how people respond to different macronutrients.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="40" patient_result="false">
+            <name>Low Fat Diet</name>
+            <description><![CDATA[This patient has an increased likelihood of weight loss or health benefits on a diet that is lower in fats, especially saturated fats. This diet has been selected by evaluating many genetic variants associated with LDL, HDL, triglyceride, and blood sugar levels, as well as how people respond to different macronutrients.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="407">
+            <name>ADIPOQ</name>
+            <markers>
+              <marker id="5390">
+                <name>rs17300539</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="674">
+            <name>APOA2</name>
+            <markers>
+              <marker id="5403">
+                <name>rs5082</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="337">
+            <name>FTO</name>
+            <markers>
+              <marker id="1131">
+                <name>rs9939609</name>
+                <result type="genotype">T/T</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="672">
+            <name>KCTD10</name>
+            <markers>
+              <marker id="5401">
+                <name>rs10850219</name>
+                <result type="genotype">G/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="280">
+            <name>LIPC</name>
+            <markers>
+              <marker id="5382">
+                <name>rs1800588</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="673">
+            <name>MMAB</name>
+            <markers>
+              <marker id="5402">
+                <name>rs2241201</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+          <gene id="110">
+            <name>PPARG</name>
+            <markers>
+              <marker id="711">
+                <name>rs1801282</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="110">
+        <status>FINAL</status>
+        <type>Food Reactions</type>
+        <name>Caffeine metabolism</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="true">
+            <name>Slow Metabolizer</name>
+            <description><![CDATA[This patient is more likely to have a slow rate of caffeine metabolism. The patient has the CYP1A2 allele that is associated with an increased risk of nonfatal myocardial infarction when consuming high amounts of caffeine (four or more cups of coffee daily). In addition to genetics, caffeine metabolism depends on lifestyle factors, such as amount of coffee consumed, smoking and hormonal birth control.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="false">
+            <name>Fast Metabolizer</name>
+            <description><![CDATA[This patient is more likely to have a rapid rate of caffeine metabolism. The patient does not have the CYP1A2 allele that is associated with increased risk of myocardial infarction when consuming high amounts of caffeine (four or more cups of coffee daily). In addition to genetics, caffeine metabolism depends on lifestyle factors, such as amount of coffee consumed, smoking and hormonal birth control. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="339">
+            <name>CYP1A2</name>
+            <markers>
+              <marker id="1133">
+                <name>rs762551</name>
+                <result type="genotype">A/C</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="108">
+        <status>FINAL</status>
+        <type>Food Reactions</type>
+        <name>Bitter taste</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="true">
+            <name>Taster</name>
+            <description><![CDATA[The patient has a variant in the TAS2R38 gene that, in some people, is associated with high levels of sensitivity to a bitter chemical called phenylthiocarbamide. Tasters may need to monitor their salt intake because they may have an increased preference for salty foods that mask the bitterness.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="false">
+            <name>Non-taster</name>
+            <description><![CDATA[This patient has a variant in the TAS2R38 gene that, in some people, is associated with low levels of sensitivity to a bitter chemical called phenylthiocarbamide.]]></description>
+          </outcome>
+          <outcome id="0" sort_order="30" patient_result="false">
+            <name>Inconclusive</name>
+            <description><![CDATA[There is insufficient scientific evidence to determine how this patient’s genotype affects sensitivity to bitter taste. Variants in the TAS2R38 gene are associated with different levels of sensitivity to a chemical called phenylthiocarbamide, which produces strong bitter taste. ]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="659">
+            <name>TAS2R38</name>
+            <markers>
+              <marker id="5380">
+                <name>rs713598</name>
+                <result type="genotype">C/G</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+              <marker id="5381">
+                <name>rs1726866</name>
+                <result type="genotype">C/T</result>
+                <scientific_strength min="1" max="4">3</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="107">
+        <status>FINAL</status>
+        <type>Nutrition</type>
+        <name>Genetic risk for decreased vitamin A</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="false">
+            <name>Optimize Intake</name>
+            <description><![CDATA[The patient has a variant in the BCMO1 gene that is associated with an impaired conversion of beta-carotene into vitamin A. This test result is derived from a study with only women, and there is insufficient scientific evidence to determine if men are similarly affected. This patient could be advised to consume preformed vitamin A found in fortified milk, breakfast cereals and multivitamins containing retinyl palmitate or retinyl acetate.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="false">
+            <name>Stay Balanced</name>
+            <description><![CDATA[This patient has a variant in the BCMO1 gene that is associated with normal conversion of beta-carotene into vitamin A. This test result is derived from a study with only women, and there is insufficient scientific evidence to determine if men are similarly affected.]]></description>
+          </outcome>
+          <outcome id="0" sort_order="30" patient_result="true">
+            <name>Inconclusive</name>
+            <description><![CDATA[There is insufficient scientific evidence to determine how this patient’s genotype affects the efficiency of converting beta-carotene into vitamin A.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="668">
+            <name>BCMO1</name>
+            <markers>
+              <marker id="5395">
+                <name>rs7501331</name>
+                <result type="genotype">C/C</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+              <marker id="5396">
+                <name>rs12934922</name>
+                <result type="genotype">A/T</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="106">
+        <status>FINAL</status>
+        <type>Food Reactions</type>
+        <name>Alcohol flush</name>
+        <outcomes>
+          <outcome id="2" sort_order="10" patient_result="false">
+            <name>More Likely</name>
+            <description><![CDATA[This patient has a variant in the ALDH2 gene that indicates that he or she is more likely to display alcohol flush and experience other negative responses to alcohol. Those who carry an inactive version of ALDH2, which encodes an enzyme critical for proper alcohol metabolism, are more likely to flush. In most cases, avoiding alcohol is the best remedy for those who experience alcohol flush.]]></description>
+          </outcome>
+          <outcome id="1" sort_order="20" patient_result="true">
+            <name>Less Likely</name>
+            <description><![CDATA[This patient's genotype at a variant in the ALDH2 gene indicates that he or she is less likely to display alcohol flush. The ALDH2 gene encodes an enzyme critical for proper alcohol metabolism.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="657">
+            <name>ALDH2</name>
+            <markers>
+              <marker id="5378">
+                <name>rs671</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="105">
+        <status>FINAL</status>
+        <type>Body and Weight</type>
+        <name>Genetic risk for decreased adiponectin</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="false">
+            <name>Possibly Low</name>
+            <description><![CDATA[This patient is more likely to have lower adiponectin levels. Higher levels of adiponectin are considered good for weight loss and health. Individuals with lower adiponectin levels could be advised to lose weight.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="true">
+            <name>Typical</name>
+            <description><![CDATA[This patient is more likely to have typical adiponectin levels. Higher levels of adiponectin are considered good for weight loss and health.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="407">
+            <name>ADIPOQ</name>
+            <markers>
+              <marker id="5377">
+                <name>rs17366568</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">4</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+      <phenotype id="104">
+        <status>FINAL</status>
+        <type>Exercise</type>
+        <name>Achilles tendinopathy</name>
+        <outcomes>
+          <outcome id="1" sort_order="10" patient_result="true">
+            <name>Injury Prone</name>
+            <description><![CDATA[This patient is more likely to display Achilles tendinopathy. The patient has the G/G genotype at a MMP3 marker, which is associated with a greater chance of developing Achilles tendinopathy compared to individuals with other genotypes.]]></description>
+          </outcome>
+          <outcome id="2" sort_order="20" patient_result="false">
+            <name>Typical</name>
+            <description><![CDATA[This patient has a typical likelihood of displaying Achilles tendinopathy. The patient does not have the G/G genotype at a MMP3 marker, which is associated with a greater chance of developing Achilles tendinopathy compared to individuals with other genotypes.]]></description>
+          </outcome>
+          <outcome id="16" sort_order="0" patient_result="false">
+            <name>Pending</name>
+            <description><![CDATA[The patient's test for this disease is still in progress.]]></description>
+          </outcome>
+          <outcome id="15" sort_order="0" patient_result="false">
+            <name>Unable To Report</name>
+            <description><![CDATA[The patient's genotype could not be determined; therefore, no result can be provided.]]></description>
+          </outcome>
+        </outcomes>
+        <genetic_result></genetic_result>
+        <genes>
+          <gene id="210">
+            <name>MMP3</name>
+            <markers>
+              <marker id="1041">
+                <name>rs679620</name>
+                <result type="genotype">G/G</result>
+                <scientific_strength min="1" max="4">2</scientific_strength>
+              </marker>
+            </markers>
+          </gene>
+        </genes>
+        <descriptions></descriptions>
+        <lifestyle></lifestyle>
+      </phenotype>
+    </phenotypes>
+    <recommendations></recommendations>
+  </results>
+  <supplemental_text>
+    <disclaimer><![CDATA[<p>This report is not intended to be used solely by the 
+patient without the consultation of a licensed health care professional. 
+This test was developed and its performance characteristics determined by 
+the testing laboratory. It has not been cleared or approved by the U.S. Food 
+and Drug Administration (FDA).</p>
+<p>If you have any questions about this report or wish to speak with one of 
+Pathway Genomics&apos; genetic counselors, please call (877) 505.7374.</p>]]></disclaimer>
+    <risks_limitations><![CDATA[<p><b>Risk of Laboratory Technical Problems or Laboratory Error</b></p>
+
+<p>The certified testing laboratory has standard and effective procedures in place to protect against technical and operational problems. However, such problems may still occur. The testing laboratory receives samples collected by patients and physicians. Problems in shipping to the laboratory or sample handling can occur, including but not limited to damage to the specimen or related paperwork, mislabeling, and loss or delay of receipt of the specimen. Laboratory problems can occur that might lead to inability to obtain results. Examples include, but are not limited to, sample mislabeling, DNA contamination, un-interpretable results, and human and/or testing system errors. In such cases, the testing laboratory may need to request a new sample. However, upon re-testing, results may still not be obtainable.</p>
+
+<p>As with all medical laboratory testing, there is a small chance that the laboratory could report inaccurate information. For example, the laboratory could report that a given genotype is present when in fact it is not. Any kind of laboratory error may lead to incorrect decisions regarding medical treatment and/or diet and fitness recommendations. If a laboratory error has occurred or is suspected, a health care professional may wish to pursue further evaluation and/or other testing. Further testing may be pursued to verify any results for any reason.</p>
+
+<p><b>Limitations</b></p>
+
+<p>The purpose of this test is to provide information about how a tested individual’s genes may affect carrier status for some inherited diseases, responses to some drugs, risk for specific common health conditions, and/or selected diet, nutrition and/or exercise responses, as well as to learn more about the tested individual’s ancient ancestry, depending upon the specific genetic testing that is ordered by the health care professional. Tested individuals should not make any changes to any medical care (including but not limited to changes to dosage or frequency of medications, diet and exercise regimens, or pregnancy planning) based on genetic testing results without consulting a health care professional.</p>
+
+<p>The science behind the significance or interpretation of certain testing results continues to evolve. Although great strides have been made to advance the potential usefulness of genetic testing, there is still much to be discovered. Genetic testing is based upon information, developments and testing techniques that are known today. Future research may reveal changes in the interpretation of previously obtained genetic testing results. For example, any genetic test is limited by the variants being tested. The interpretation of the significance of some variants may change as more research is done about them. Some variants that are associated with disease, drug response, or diet, nutrition and exercise response may not be tested; possibly these variants have not yet been identified in genetic studies.</p>
+
+<p>Many of the conditions and drug responses that are tested are dependent on genetic factors as well as nongenetic factors such as age, personal health and family health history, diet, and ethnicity. As such, an individual may not exhibit the specific drug response, disease, or diet, nutrition and exercise response consistent with the genetic test results.</p>
+
+<p>Another limitation for some conditions, particularly in the areas of diet and exercise, is that genetic associations have been studied and observed in Caucasian populations only. In this case, the interpretations and recommendations are made in the context of Caucasian studies, but the results may or may not be relevant to tested individuals who are of non-Caucasian or mixed ethnicities.</p>
+
+<p>Based on test results and other medical knowledge of the tested individual, health care professionals might consider additional independent testing, or consult another health care professional or genetic counselor.</p>]]></risks_limitations>
+    <result_status_definitions>
+      <result_status sort_order="10">
+        <name>Amended</name>
+        <description>Test results and/or patient information that have been revised in a way that does not impact the clinical significance of the result(s) and/or patient diagnosis, treatment or management.</description>
+      </result_status>
+      <result_status sort_order="20">
+        <name>Corrected</name>
+        <description>Test results and/or patient information that have been revised in a way that may impact the clinical significance of the result(s) and/or patient diagnosis, treatment or management.</description>
+      </result_status>
+      <result_status sort_order="30">
+        <name>Final</name>
+        <description>Test results that are available at the time of report issue or have been revised from pending status to final status.</description>
+      </result_status>
+      <result_status sort_order="40">
+        <name>Pending</name>
+        <description>Test results that are not available at the time of report issue. All pending results will be specified in the report.</description>
+      </result_status>
+    </result_status_definitions>
+  </supplemental_text>
+  <revisions/>
+</report>
+
+

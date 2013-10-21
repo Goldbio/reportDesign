@@ -1,0 +1,55 @@
+
+table.recommendation_table {
+	margin:20px auto;	
+	border:20px solid darkred;
+	border-radius:30px;
+	border-spacing:0;
+	padding:0 15px;
+}
+
+table.recommendation_table caption {
+	background:white;
+	margin: 0 auto -20px;
+	font:16px/20px georgia;
+	width:150px;
+}
+
+table.recommendation_table tr {
+	font:20px helvetica;
+}
+
+table.recommendation_table td:first-child {
+	width:150px;
+}
+
+table.recommendation_table td:nth-child(2) {
+	width:350px;
+}
+
+table.recommendation_table td {
+	padding:10px;
+}
+
+table.recommendation_table tr:last-child td{
+	border:0;
+}
+/* border-bottom color for each risk type */
+
+
+.increased_risk_bottom  td {
+	border-bottom:1px solid red ;
+	
+}
+
+.above_risk_bottom td {
+	border-bottom:1px solid orange;
+}
+
+.normal_risk_bottom td {
+	border-bottom:1px solid skyblue;
+}
+
+.beneficial_bottom td {
+	border-bottom:1px solid green;
+}
+

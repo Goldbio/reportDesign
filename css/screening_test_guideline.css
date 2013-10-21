@@ -1,0 +1,38 @@
+.screening_table {
+	border-collapse:collapse;
+}
+
+.screening_table tr:first-child {
+	text-align:center;	
+}
+
+.screening_table td {
+	color:gray;
+	padding:10px;
+}
+
+.screening_table td:nth-child(even) {
+	border-bottom:1px solid lightgray;
+	background:white;
+}
+
+.screening_table td:nth-child(odd) {
+	border-bottom:1px solid white;
+	background:lightgray;
+}
+
+.increased_risk_background td{
+	background:red !important;
+	color:white;
+	border-bottom:none !important;
+}
+
+.above_risk_background {
+	background:orange;
+}
+
+.normal_risk_background {
+	background:skyblue;
+}
+
+
