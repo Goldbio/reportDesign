@@ -1,0 +1,55 @@
+[
+	'Prostate cancer':{
+		'class':'주요암',
+		'korean':'전립선암',
+		'tests':[
+			'PSA(전립선특이항원)검사':{
+				'age_start':'40',
+				'normal_freq':'1년',
+				'above_risk_freq':'1년',
+				'increased_risk_freq':'1년',
+				'normal_comment':'평소에 음주 및 흡연량을 줄이시고 주기적인 검진을 통한 관리를 하세요',
+				'above_comment':'전립선암의 발병위험도가 다소 높습니다. 음주 및 흡연량을 줄이시고 주기적인 검진을 통한 전립선암의 위험도를 낮추세요',
+				'increased_comment:'전립선암의 발병 위험도가 높은 편입니다. 금연 및 절주, 보다 적극적인 전립선암 검진을 통해 질병을 예방하세요'
+			},
+			'전립선초음파':{
+				'age_start':'60',
+				'normal_freq':'2년',
+				'above_risk_freq':'1~2년',
+				'increased_risk_freq':'1년',
+				'normal_comment':'평소에 음주 및 흡연량을 줄이시고 주기적인 검진을 통한 관리를 하세요',
+				'above_comment':'전립선암의 발병위험도가 다소 높습니다. 음주 및 흡연량을 줄이시고 주기적인 검진을 통한 전립선암의 위험도를 낮추세요',
+				'increased_comment:'전립선암의 발병 위험도가 높은 편입니다. 금연 및 절주, 보다 적극적인 전립선암 검진을 통해 질병을 예방하세요'
+		
+			}
+		]
+	}, 
+	
+	'Colorectal cancer':{
+		'class':'주요암',
+		'korean':'대장암',
+		'tests':[
+			'대변잠혈검사':{
+				'age_start':'40',
+				'normal_freq':'1년',
+				'above_risk_freq':'1년',
+				'increased_risk_freq':'1년',
+				'normal_comment':'평소에 음주 및 흡연량을 줄이시고 주기적인 검진을 통한 관리를 하세요',
+				'above_comment':'전립선암의 발병위험도가 다소 높습니다. 음주 및 흡연량을 줄이시고 주기적인 검진을 통한 전립선암의 위험도를 낮추세요',
+				'increased_comment:'전립선암의 발병 위험도가 높은 편입니다. 금연 및 절주, 보다 적극적인 전립선암 검진을 통해 질병을 예방하세요'
+			},
+			'전립선초음파':{
+				'age_start':'60',
+				'normal_freq':'2년',
+				'above_risk_freq':'1~2년',
+				'increased_risk_freq':'1년',
+				'normal_comment':'평소에 음주 및 흡연량을 줄이시고 주기적인 검진을 통한 관리를 하세요',
+				'above_comment':'전립선암의 발병위험도가 다소 높습니다. 음주 및 흡연량을 줄이시고 주기적인 검진을 통한 전립선암의 위험도를 낮추세요',
+				'increased_comment:'전립선암의 발병 위험도가 높은 편입니다. 금연 및 절주, 보다 적극적인 전립선암 검진을 통해 질병을 예방하세요'
+		
+			}
+		]
+	}
+
+
+]
