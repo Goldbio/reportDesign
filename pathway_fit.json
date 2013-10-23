@@ -1,0 +1,35 @@
+{
+'Genetic risk for decreased OMEGA-6 and OMEGA-3':{'Decreased':'평균보다 오메가 6 및 오메가 3의 혈중 레벨이 낮을 수 있으므로 불포화 지방산 (올리브유, 견과류, 등푸른 생선 등)의 섭취량을 증가시켜주세요.'}
+'vitamin B2':{'optimize intake':'평균보다 비타민 B2의 혈중 레벨이 낮을 수 있습니다. 비타민 B2가 많이 들어있는 음식(치즈, 우유, 달걀, 시금치 등)의 섭취량을 증가시켜주세요.'}
+'vitamin B6':{'optimize intake':'평균보다 비타민 B6의 혈중 레벨이 낮을 수 있습니다. 비타민 B6가 많이 들어있는 음식(어류, 우유, 땅콩, 달걀, 바나나 등)의 섭취량을 증가시켜주세요.'}
+'vitamin B12':{'optimize intake':'평균보다 비타민 B12의 혈중 레벨이 낮을 수 있습니다. 비타민 B12가 많이 들어있는 음식(어류, 육류의 내장, 달걀 등)의 섭취량을 증가시켜주세요.'}
+'folate':{'optimize intake':'평균보다 엽산의 혈중 레벨이 낮을 수 있습니다. 엽산(시금치 등 녹색잎류, 딸기, 양배추 등)이 많이 들어있는 음식의 섭취량을 증가시켜주세요.'}
+'vitamin A':{'optimize intake':'평균보다 비타민 A의 혈중 레벨이 낮을 수 있습니다. 비타민 A가 많이 들어있는 음식((파프리카, 간, 고구마, 당근, 상추 등)의 섭취량을 증가시켜주세요.'}
+'vitamin C':{'optimize intake':'평균보다 비타민 C의 혈중 레벨이 낮을 수 있습니다. 비타민 C가 많이 들어있는 음식(오렌지, 유자차, 딸기, 고추 등)의 섭취량을 증가시켜주세요.'}
+'vitamin D':{'optimize intake':'평균보다 비타민 D의 혈중 레벨이 낮을 수 있습니다. 햇볕을 많이 쬐고 비타민 D가 많이 들어있는 음식(우유, 등푸른생선, 버섯 등)의 섭취량을 증가시켜주세요.'}
+'vitamin E':{'optimize intake':'평균보다 비타민 E의 혈중 레벨이 낮을 수 있습니다. 비타민 E가 많이 들어있는 음식(달걀, 양상추, 옥수수, 식물성 기름, 땅콩 등)의 섭취량을 증가시켜주세요.'}
+'Snacking':{'Increased':'과자 같은 간식에 대한 습관적인 섭취가 많은 유전형이므로 가능한 해로운 간식을 멀리하고 과일 등 건강한 간식을 섭취하세요'}
+'Hunger':{'Increased':'쉽게 배가 고파지는 타입의 유전형이므로 포만감을 느낄 수 있는 건강한 음식 (섬유질이 풍부한 야채 등)을 주로 섭취하고 칼로리가 적은 음식을 자주 나누어 먹으세요.'}
+'Satiety-Feeling full':{'Difficulty felling full':'쉽게 포만감을 못느껴 식사시 음식을 많이 먹을 수 있씁니다. 음식을 천천히 먹으며 식사간의 물을 마시며 포만감을 못느껴도 식사를 마치는 습관을 가지세요 (식후 30분뒤 포만감이 뒤늦게 찾아옵니다.)'}
+'Eating Disinhibition':{'More likely':'평소에 접하지 않았던 맛있는 음식의 유효성 같은 자극을 통해 평소보다 많은 양의 음식을 먹는 성향이므로 가능한 뷔페 등의 식사를 피해주세요'}
+'Sweet tooth':{'Increased':'단것을 좋아하는 성향의 유전형입니다. 단것 대신 만족감을 줄 수 있는 과일을 찾으며 무가당 음료 등을 섭취하세요.'}
+'Caffeine Metabolism':{'Slow metabolizer':'카페인 대사가 느려 오랫동안 카페인 영향을 받는 유형이므로 가능한 오후 이후에는 카페인을 섭취하지 않고 카페인 섭취량은 200mg 이하로 합니다.'}
+'Bitter Taste':{'Taster':'쓴맛에 민감하여 일부 야채 등을 피할 수 있는 유형입니다. 또 음식의 맛을 향상 시키기 위해 다량의 소금을 섭취할 수 있습니다. 쓴맛이 나지 않는 다양한 야채의 섭취와 소금의 제한이 필요합니다.'}
+'Sweet taste':{'Decreased':'단맛을 잘 느끼지 못하기에 설탕을 많이 포함한 음식을 선호할 가능성이 높습니다. 혈당균형을 위하여 적절한 섬유질 및 과일을 섭취합니다.'}
+'Lactose intolerance':{'More likely':'우유 등 유제품 섭취시 설사 등의 증상이 있을 수 있는 유형입니다. 실제 그렇다면 유제품을 피하고 대체 식품을 섭취하세요.'}
+'Strength training':{'Beneficial':'상대적으로 근력 운동이 효과적인 유형입니다. 현재의 운동 계획에 근력 운동을 강화시키기를 권장합니다.'}
+'Muscle power':{'Enhanced Muscle Power':'전력운동을 하는 선수들과 유사한 유전자 구성을 가지고 있으므로 단거리 달리기, 파워 리프팅, 인터벌 트레이닝의 훈련이 유용합니다.'}
+'Muscle power':{'Less Muscle Power':'상대적으로 근육 민첩성이나 근력에 대한 반응이 낮습니다. 지구력쪽으로 훈련하는게 더 효과적이며 단거리 달리기 및 역도 운동종류 보다는 인터벌 트레이닝을 포함하는 운동 프로그램을 권유합니다.'}
+'Achilles tendinopathy':{'Injury Prone':'아킬레스건 부상의 위험이 높으므로 발목의 근력과 균형을 향상시키기 위해 발목강화 운동을 권장합니다.'}
+'BMI response to exercise':{'Exercise strongly recommend':'환자의 유전형이 비만의 성향과 연관이 있으므로 신체적으로 활동적인 성향을 유지하며 꾸준한 운동을 병행하는것을 권유합니다.'}
+'Blood pressure response to exercise':{'Exercise strongly recommend':'고혈압의 위험이 높은 성향이며 동시에 운동에 따른 고혈압 강하의 효과가 높은 유전형이므로 적극적인 운동을 권유합니다.'}
+'HDL cholesterol response to exercise':{'Enhanced Benefit':'운동을 통한 HDL 콜레스테롤(좋은 콜레스테롤)의 향상을 기대할 수 있는 유형이므로 지속적인 운동을 요합니다.'}
+'Insulin sensitiviy response to exercise':{'Enhanced Benefit':'운동에 따른 인슐린 민감성이 높아지는 유형의 유전형이므로 적극적인 운동을 요합니다.'}
+'Obesity':{'Above average':'유전적으로 체질량 지수가 평균보다 높은 활률이 있을 수 있으므로 쉽게 살이 찔 확률이 있습니다. 유전형에 따른 적적한 식습관과 운동을 병행할 것을 권유합니다'}
+'Weight loss regain':{'More likely to gain weight back':'환자가 체중을 줄인 후에 유지하는데 어려움을 느낄 가능성이 있습니다. 체계적인 운동 및 후속조치를 받도록 음식과 운동일지를 작성하는 것을 권유합니다.'}
+'Metabolism':{'Fast':'휴식시 대사가 증가하는 경향이 있습니다. 꾸준히 적절히 먹고 운동하는 것을 권유합니다.'}
+'Genetic risk for decreased Adiponectin':{'Possibly Low':'이 환자의 아디포넥틴 수치가 낮을 가능성이 높습니다. 낮은 아디포넥틴은 비만과 관련됩니다. 지속적인 체중감량을 권유합니다.'}
+'Genetic risk for elevated LDL cholesterol':{'High or above average':'포화지방과 트랜스지방을 포함하는 식습관을 파악하며 불포화지방과 고도불포화 지방으로 대체할것을 권유합니다.'}
+'Genetic risk fro elevated blood sugar':{'High or above average':'하루에 7~9시간의 깊은 수면을 취할수 있도록 하며 고혈당 음식의 섭취를 줄이는것을 권유합니다. 또한 음식을 천천히 먹으며 가능한 채소들을 많이 포함하도록 식단을 권유합니다.'}
+'Aerobic Capacity(Vo2max): Measure of a person's cardiorespiratory fitness':{'Typical':'상대적으로 지구력 운동에 의하여 최대산소흡입능력(VO2MAX)가 잘 향상되는 유형이므로 오래 달리기 같은 지구력 운동이 도움이 됩니다.'}
+}
